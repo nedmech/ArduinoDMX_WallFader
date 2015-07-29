@@ -15,14 +15,14 @@
 --> Defines the number of DMX channels that can be controlled.
 --> Can be changed in blocks of 8 (e.g. 8, 16, 24, 32, etc.)
 -----------------------------------------------*/
-#define DMX_CHANNEL_BLOCK 16
+#define DMX_CHANNEL_BLOCK 64
 
 /*-----------------------------------------------
  Define the calibration of the Fader inputs.
  This is based on the dimmer switch circuit used.
 -----------------------------------------------*/
-#define FADER_LO 204 // ~1V
-#define FADER_HI 920 // ~4.5V
+#define FADER_LO 164 // ~0.8V
+#define FADER_HI 612 // ~3.0V
 #define DMX_MIN 0
 #define DMX_MAX 255
 

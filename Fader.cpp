@@ -107,7 +107,8 @@ void Fader::update(int _value)
 		);
 #ifdef DEBUG_
 	Serial.print("\tDMX: ");
-	Serial.println(dmxValue);
+	Serial.print(dmxValue);
+	Serial.println("");
 #endif
 	// only send output if channel is mapped to Fader
 	for (byte i = 1; i <= DMX_CHANNEL_BLOCK; i++)
