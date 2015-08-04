@@ -9,7 +9,7 @@
 #include <DmxSimple.h>
 #include <BitBool.h>
 #include "Ramp.h"
-
+#include "Linearizer.h"
 
 /*-----------------------------------------------
 --> Defines the number of DMX channels that can be controlled.

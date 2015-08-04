@@ -47,6 +47,7 @@
     <ClInclude Include="Fader.h">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClInclude Include="Linearizer.h" />
     <ClInclude Include="Ramp.h">
       <FileType>CppCode</FileType>
     </ClInclude>

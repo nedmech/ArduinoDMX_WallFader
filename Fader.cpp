@@ -105,6 +105,7 @@ void Fader::update(int _value)
 		, DMX_MIN
 		, DMX_MAX
 		);
+	dmxValue = deLog<int>(dmxValue, DMX_MAX, 4);
 #ifdef DEBUG_
 	Serial.print("\tDMX: ");
 	Serial.print(dmxValue);
