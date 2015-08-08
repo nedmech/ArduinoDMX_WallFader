@@ -40,6 +40,7 @@ Fader Channel[FADER_CHANNELS]; // Fader Channel Object
 void setup() {
 	Serial.begin(9600);
 	Serial.println("<setup...>");
+ 	Serial.println("DMX_WallFader 2015-08-06");
 	setup_io();
 	/*------------------------------------------
 		CONFIGURE FADER CHANNEL MAPPING
