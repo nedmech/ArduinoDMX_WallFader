@@ -197,3 +197,4 @@ FakesAssemblies/
 
 # Visual Micro (Visual Studio Arduino IDE)
 Visual Micro/
+*/__vm/*
